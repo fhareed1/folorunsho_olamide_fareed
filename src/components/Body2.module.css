@@ -1,0 +1,46 @@
+.top {
+  display: flex;
+  padding: 4em;
+  width: 100%;
+  /* background-color: #F6F5F4; */
+}
+
+.part1 {
+  /* flex: 1; */
+  width: 50%;
+}
+
+.part2 {
+  /* flex: 1; */
+  width: 50%;
+  padding-top: 50px;
+}
+
+.desc {
+  font-size: 60px;
+  font-weight: 1000;
+  font-family: fantasy;
+}
+
+@media screen and (max-width: 768px) {
+  .top {
+    flex-direction: column;
+    /* text-align: center; */
+  }
+
+  .part1 {
+    width: 100%;  
+  }
+
+  .part2{
+    width: 100%;
+    text-align: center;
+  }
+  .desc{
+    font-size: 40px;
+    
+  }
+  .desc2{
+    font-size: 20px
+  }
+}
